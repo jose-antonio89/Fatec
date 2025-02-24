@@ -9,10 +9,10 @@
       <ExibirLog Valor="False"/>
     </Configuracoes>
     <Arquivos>
-      <Arq01 Valor="C:\USERS\FATEC\DESKTOP\BRMODELO\CONCEITUAL_1.BRM"/>
-      <Arq02 Valor=""/>
-      <Arq03 Valor=""/>
-      <Arq04 Valor=""/>
+      <Arq01 Valor="C:\ABCD\FATEC\AULASBD\BRMODELO\CONCEITUAL_1.XML"/>
+      <Arq02 Valor="C:\ABCD\FATEC\AULASBD\BRMODELO\CONCEITUAL_1.BRM"/>
+      <Arq03 Valor="C:\ABCD\FATEC\AULASBD\BRMODELO\CONCEITUAL_2.BRM"/>
+      <Arq04 Valor="C:\USERS\FATEC\DESKTOP\BRMODELO\CONCEITUAL_1.BRM"/>
       <Arq05 Valor=""/>
     </Arquivos>
   </CONFIGURACAO>
