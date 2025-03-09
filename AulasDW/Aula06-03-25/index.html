@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+         <title>CSS</title>
+         <meta charset="UTF-8">
+
+         <!-- CSS Interno -> TAG style no HEAD -->
+         <style>
+           /* Existem 3 formas de aplicar o css em elementos:
+           TAG -> utilizando diretamente o nome da TAG. Ex: b{...}
+           .classe -> criamos uma classe para reaproveitar
+                      o mesmo css em vários locais. Ex: .azul{...}
+            #id -> definimos um id para o elemento, aplica somente
+                   a ele, só podendo haver 1 id com aquele nome.
+                   Ex : #logo{...}          
+            */
+
+            b{
+                font-weight: normal;
+                color: #f00; /* Cor simplificada: ff0000 */
+                font-style: italic;
+            }
+
+            .texto-verde{
+                color: green !important;
+            }
+
+            .texto-amarelo{
+                color: yellow;
+            }
+
+            .fundo-vermelho{
+                background: #f00;
+            }
+
+            .fundo-azul{
+                background-color: #00f;
+
+            }
+
+            #quadrado{
+                height: 100px;
+                width: 100px;
+                border-radius: 20px;
+                background-color: #f00;
+            }
+
+         </style>
+        <!-- Emmet Ex -> link:css -->
+        <!-- css Externo -> Adiciona arquivos .css a pagina -->
+
+         <link rel="stylesheet" href="css/style.css">
+        <!-- Este deve ser o primeiro css da pagina -->
+        <link rel="stylesheet" href="css/reset.css">
+
+    </head> 
+    <body style="text-align: center">
+          <h1>Aula sobre CSS</h1>
+          <!-- CSS Inline > Direto no elemento HTML -->
+          <p style="color: #b62ad5; ">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio veniam earum voluptate accusantium, explicabo enim aut amet alias pariatur. Doloremque culpa exercitationem quisquam odio natus nemo similique earum, ipsum et!
+          </p>
+
+          <p style="text-align: center; font-weight: 900;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa et assumenda ad unde placeat quam quas quaerat, enim ex voluptatum nemo, consequuntur animi id eum dolore dolor dolorum. Et, reiciendis!
+          </p>
+
+          <p>
+            Texto que era para ser negrito: <b>Olá CSS!</b>
+          </p>  
+
+          <b> 
+            Tambem sou negrito!
+          </b> <br> <br>
+
+          <!-- Para utilizar classes utilizamos a propiedade class -->
+          <b class="texto-amarelo fundo-vermelho">
+             Eu mudei utilizando classes!
+          </b> <br>
+
+          <b class="texto-verde fundo-vermelho">  <br>
+            Trocando novamente as cores
+          </b>
+
+          <p>
+            No meio do texto <i class="texto-verde">Tambem pode!</i>
+          </p>
+
+          <p class="texto-amarelo">
+            Bem vindo ao mundo de CSS
+            <b style="font-size: 25px;">onde alteramos tudo!</b>
+          </p>
+
+          <div id="quadrado">
+            <!-- O ID precisa der o unico na pagina -->
+          </div>
+          
+           <!-- Para utilizar Emmet, Ex: div#quadrado.texto-verde -->
+          <div id="quadrado" class="texto-verde"></div>
+
+    </body>
+</html>
