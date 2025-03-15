@@ -14,11 +14,23 @@ Var
    seguro : real
 
 Inicio
+   Escreval("")
+   Escreva("-----------------------------")
+   Escreval("")
    Escreval("Boas Vindas!")
+   Escreval("")
+   Escreva("-----------------------------")
+   Escreval("")
+   Escreval("")
+   Escreva("-----------------------------")
+   Escreval("")
    Escreval("Escolha a opção desejada")
    Escreval("1-Requisitos de contratação de emprestimo")
    Escreval("2-Fazer Emprestimo")
    Escreval("3-Informações de Contato")
+   Escreval("")
+   Escreva("-----------------------------")
+   Escreval("")
    Leia(menu)
 
    // menu 1
@@ -26,8 +38,14 @@ Inicio
    Caso 1
       Escreval("É necessário ter uma renda maior de 1500 e idade acima de 18 anos")
    Caso 2
+      Escreval("")
+      Escreva("-----------------------------")
+      Escreval("")
       Escreval("Quantos anos você tem?")
       Leia(idade)
+      Escreval("")
+      Escreva("-----------------------------")
+      Escreval("")
 
       Se (idade < 18 ) então
          Escreval("Você não tem idade suficiente")
@@ -39,7 +57,7 @@ Leia(renda)
 
 Se (renda >= 1500) Então
    parcelaMax <- (renda/100) * 15
-Fimse
+Fimse   s
 
 Se (renda >= 2000) Então
    parcelaMax <- (renda/100) * 20
