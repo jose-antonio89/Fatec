@@ -2,18 +2,18 @@
 <APP>
 	<CONFIGURACAO>
     <Configuracoes>
-      <dirLogico Valor="C:\Users\HELIO\Desktop\brModelo\"/>
-      <dirConceitual Valor="C:\Users\HELIO\Desktop\brModelo\"/>
+      <dirLogico Valor="D:\Fatec\Fatec\AulasBD\brModelo Antigo\"/>
+      <dirConceitual Valor="D:\Fatec\Fatec\AulasBD\brModelo Antigo\"/>
       <showLHint Valor="True"/>
       <Tempo Valor="5"/>
       <ExibirLog Valor="False"/>
     </Configuracoes>
     <Arquivos>
-      <Arq01 Valor="C:\ABCD\FATEC\AULASBD\BRMODELO\SISTEMA DE ENTREGA DE COMIDA.XML"/>
-      <Arq02 Valor="C:\ABCD\FATEC\AULASBD\BRMODELO\CONCEITUAL_1.XML"/>
-      <Arq03 Valor="C:\ABCD\FATEC\AULASBD\BRMODELO\CONCEITUAL_1.BRM"/>
-      <Arq04 Valor="C:\ABCD\FATEC\AULASBD\BRMODELO\CONCEITUAL_2.BRM"/>
-      <Arq05 Valor="C:\USERS\FATEC\DESKTOP\BRMODELO\CONCEITUAL_1.BRM"/>
+      <Arq01 Valor="D:\FATEC\FATEC\AULASBD\BRMODELO ANTIGO\EXEMPLO1.XML"/>
+      <Arq02 Valor="D:\FATEC\FATEC\AULASBD\BRMODELO ANTIGO\SISTEMA DE ENTREGA DE COMIDA.XML"/>
+      <Arq03 Valor=""/>
+      <Arq04 Valor=""/>
+      <Arq05 Valor=""/>
     </Arquivos>
   </CONFIGURACAO>
 	<AJUDA>
