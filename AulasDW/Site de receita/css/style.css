@@ -1,14 +1,13 @@
-
-.image-container{
-  margin:0 auto;
+.image-container {
+  margin: 0 auto;
   width: 30%;
 
-  }
- .ingredientes{
-  font-size: 30px;
- }
-.preparo{
-   font-size: 30px;
- }
+}
 
- 
+.ingredientes {
+  font-size: 30px;
+}
+
+.preparo {
+  font-size: 30px;
+}

@@ -1,22 +1,19 @@
-.titulo{
+.titulo {
     justify-content: center;
     display: flex;
     font-size: 2rem;
 }
 
-.imagem{
-    
+.imagem {
+
     display: flex;
-    
+
 }
 
-.texto{
+.texto {
     display: flex;
     text-align: right;
     padding: 1rem;
     border-radius: 8px;
     width: 300px;
 }
-
-
-
