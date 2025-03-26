@@ -5,18 +5,21 @@
 
     <title>Historia do universo do Tibia</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/exercicio-aula-13-03/css/reset.css">
-    <link rel="stylesheet" href="/exercicio-aula-13-03/css/color.css">
-    <link rel="stylesheet" href="/exercicio-aula-13-03/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/color.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
 <body>
+    <nav class="navbar">
     <div class="titulo">
         <h1>O Despertar dos Deuses</h1>
     </div>
+    <div onclick="toggleDarkMode()" class="dark-mode-toggle">Dark Mode</div>
+    </nav>
     <div class="imagem">
-        <img src="/exercicio-aula-13-03/imgs/Genesis1.jpg" alt="#">
+        <img src="/imgs/Genesis1.jpg" alt="#">
         <i>
             Uma nova deusa saiu do vácuo como uma sereia recém nascida de sua concha. Os deuses anciões maravilhados
             assistiram àquela beleza divina com grande admiração. Pois tudo nela estava em perfeita harmonia. Eles
@@ -24,6 +27,7 @@
         </i>
     </div>
     <div class="texto">
+      
         <p>No começo havia somente um grande vácuo. Que estava em todo lugar e em lugar algum.</p>
 
         <p>Neste vazio, duas entidades poderosas apareceram, entidades que eventualmente seriam conhecidas como os
@@ -53,6 +57,13 @@
             Fardos trabalharam juntos no grande projeto que era a criação.</p>
 
     </div>
+
+    <script src="/js/script.js"></script>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
 
 
 </body>

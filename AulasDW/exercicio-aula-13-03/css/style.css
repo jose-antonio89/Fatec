@@ -1,3 +1,10 @@
+body{
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+
 .titulo {
     justify-content: center;
     display: flex;
@@ -5,15 +12,35 @@
 }
 
 .imagem {
-
-    display: flex;
-
+    display: grid;
+    place-items: center;
+    max-width: 100%;
 }
 
-.texto {
-    display: flex;
-    text-align: right;
+i {
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+p {
+    margin-top: 15px;
+    font-size: 20px
+}
+
+.navbar{
+    background-color: var(--navbar-bg);
     padding: 1rem;
-    border-radius: 8px;
-    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.dark-mode-toggle{
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 10px;
 }
