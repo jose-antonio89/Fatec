@@ -1,0 +1,82 @@
+table,
+tbody,
+tr,
+td {
+    /* border-collapse serve para juntar as bordas */
+    border-collapse: collapse;
+}
+
+.btn {
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+    min-height: 100px;
+    font-size: 30px;
+    font-weight: 900;
+    border: none;
+}
+
+.calculo {
+    text-align: right;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #67534e3d;
+    font-family: "Noto Sans", sans-serif;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.resultado {
+    text-align: right;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: #b7a8a53d;
+    font-family: "Noto Sans", sans-serif;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.limpar {
+    background-color: rgb(238, 156, 141);
+    color: rgb(212, 32, 32);
+    font-size: 40px;
+    border: 1px solid tomato;
+}
+
+.igual {
+    background-color: rgb(176, 236, 116);
+    color: rgb(95, 180, 9);
+    font-size: 50px;
+    border: 1px solid chartreuse
+}
+
+.numeros {
+    background-color: rgb(104, 146, 237);
+    color: rgb(19, 19, 128);
+    border: 1px solid rgb(62, 62, 220);
+}
+
+.operacoes {
+    background-color: rgb(94, 62, 210);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border: 1px solid #380e92;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.area {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
