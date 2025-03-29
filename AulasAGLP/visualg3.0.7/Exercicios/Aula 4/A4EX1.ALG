@@ -1,18 +1,18 @@
-Algoritmo "semnome"
+Algoritmo "Desconto"
 // Disciplina   : Lógica de Programação e Algoritmos
-// Professor   : MSc. Tiago Antonio da Silva 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 07/03/2025
+// Professor   : MSc. Tiago Antonio da Silva
+// Descrição   : Algoritmo para calcular desconto dado
+// nas formas de pagamento
+// Autor(a)    : Jose Antonio Geraldo Felix
+// Data atual  : 29/03/2025
+// Data em que adicionei a descrição nos exercicios
+// antigos
 Var
 
 desconto : real
 pagamento : inteiro
 valor : real
 valorFinal : real
-
-
-
 
 Inicio
 
@@ -50,7 +50,5 @@ fimse
 Se (pagamento => 5) então
  Escreval("Essa opção não existe")
 fimse
-
-
 
 Fimalgoritmo

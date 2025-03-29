@@ -1,12 +1,14 @@
-Algoritmo "A5Ex1-Estrutura Caso"
+Algoritmo "Dia de sorte"
 // Disciplina   : Lógica de Programação e Algoritmos
 // Professor   : MSc. Tiago Antonio da Silva
-// Descrição   : De 1 a 6, calcula a sorte do cliente
-// Autor(a)    : Vinicius Leonardo Silveira
-// Data atual  : 14/03/2025
+// descrisção   :
+// Autor(a)    : Jose Antonio Geraldo Felix
+// Data atual  : 29/03/2025
+// Data em que adicionei a descrisção nos exercicios
+// antigos
 Var
-   numero: inteiro
 
+   numero: inteiro
 
 Inicio
    Escreval("Jogue um dado e diga seu numero:")

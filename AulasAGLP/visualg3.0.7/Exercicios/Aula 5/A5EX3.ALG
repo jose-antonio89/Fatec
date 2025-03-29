@@ -1,10 +1,13 @@
-Algoritmo "A5Ex3"
+Algoritmo "Revelar heroi"
 // Disciplina   : Lógica de Programação e Algoritmos
 // Professor   : MSc. Tiago Antonio da Silva
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Vinicius L
-// Data atual  : 14/03/2025
+// descrisção   :
+// Autor(a)    : Jose Antonio Geraldo Felix
+// Data atual  : 29/03/2025
+// Data em que adicionei a descrisção nos exercicios
+// antigos
 Var
+
    heroi: inteiro
 
 Inicio

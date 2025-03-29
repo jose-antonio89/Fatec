@@ -1,9 +1,12 @@
-Algoritmo "semnome"
+Algoritmo "Menção"
 // Disciplina   : Lógica de Programação e Algoritmos
-// Professor   : MSc. Tiago Antonio da Silva 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 07/03/2025
+// Professor   : MSc. Tiago Antonio da Silva
+// Descrisção   : um algoritmo para ver qual a menção
+// que o aluno recebeu baseado em sua nota
+// Autor(a)    : Jose Antonio Geraldo Felix
+// Data atual  : 29/03/2025
+// Data em que adicionei a descrisção nos exercicios
+// antigos
 Var
  //A  >= 8.5 / B >= 7.5 / C >= 6.0 / D >= 5.0 / E <= 5.0
 
@@ -42,11 +45,5 @@ Fimse
 Se (media < 5.0) Então
  Escreval("Tirou E, com a media", media)
 Fimse
-
-
-
-
-
-
 
 Fimalgoritmo

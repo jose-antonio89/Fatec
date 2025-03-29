@@ -1,5 +1,11 @@
 Algoritmo "Tabuada desafio"
-
+// Disciplina   : Lógica de Programação e Algoritmos
+// Professor   : MSc. Tiago Antonio da Silva
+// descrisção   :
+// Autor(a)    : Jose Antonio Geraldo Felix
+// Data atual  : 29/03/2025
+// Data em que adicionei a descrisção nos exercicios
+// antigos
 Var
 
    i : inteiro

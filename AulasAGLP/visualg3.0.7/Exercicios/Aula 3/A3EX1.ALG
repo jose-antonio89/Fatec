@@ -1,9 +1,11 @@
-Algoritmo "semnome"
-// Disciplina   : Técnicas de Programação e Algoritmos
-// Professor   : Tiago Antonio da Silva 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 18/08/2021
+Algoritmo "Comissão"
+// Disciplina   : Lógica de Programação e Algoritmos
+// Professor   : MSc. Tiago Antonio da Silva
+// Descrição   : Calcular a comissão da venda dos frios
+// Autor(a)    : Jose Antonio Geraldo Felix
+// Data atual  : 29/03/2025
+// Data em que adicionei a descrição nos exercicios
+// antigos
 Var
 
 V_Mussarela : real
