@@ -8,19 +8,19 @@ var btnSub = document.getElementById('sub');
 var btnDiv = document.getElementById('div');
 var btnMult = document.getElementById('mult');
 
-btnSomar.addEventListener('click', function () {
+btnSomar.addEventListener('click', function() {
     resultado.textContent = "Resultado: " + (parseFloat(num1.value) + parseFloat(num2.value));
 });
 
-btnSub.addEventListener('click', function () {
+btnSub.addEventListener('click', function() {
     resultado.textContent = "Resultado: " + (parseFloat(num1.value) - parseFloat(num2.value));
 });
 
-btnDiv.addEventListener('click', function () {
+btnDiv.addEventListener('click', function() {
     resultado.textContent = "Resultado: " + (parseFloat(num1.value) / parseFloat(num2.value));
 });
 
-btnMult.addEventListener('click', function () {
+btnMult.addEventListener('click', function() {
     resultado.textContent = "Resultado: " + (parseFloat(num1.value) * parseFloat(num2.value));
 });
 
@@ -33,7 +33,7 @@ var divisao = document.getElementById('divisao');
 var multiplicacao = document.getElementById('multiplicacao');
 var subtracao = document.getElementById('subtracao');
 var soma = document.getElementById('soma');
-var igual = document.getElementById('igual');
+var igual = document.getElementById('Igual');
 var n9 = document.getElementById('n9');
 var n8 = document.getElementById('n8');
 var n7 = document.getElementById('n7');
@@ -50,7 +50,7 @@ var numero2 = '';
 var operacao = '';
 
 n0.addEventListener('click', function () {
-    if (operacao == null) {
+    if (operacao == '') {
         numero1 = numero1 + n0.textContent;
         calculo.innerText = numero1;
     } else {
@@ -59,8 +59,8 @@ n0.addEventListener('click', function () {
     }
 })
 
-n1.addEventListener('click', function () {
-    if (operacao == null) {
+n1.addEventListener('click', function() {
+    if (operacao == '') {
         numero1 = numero1 + n1.textContent;
         calculo.innerText = numero1;
     } else {
@@ -70,7 +70,7 @@ n1.addEventListener('click', function () {
 })
 
 n2.addEventListener('click', function () {
-    if (operacao == null) {
+    if (operacao == '') {
         numero1 = numero1 + n2.textContent;
         calculo.innerText = numero1;
     } else {
@@ -80,7 +80,7 @@ n2.addEventListener('click', function () {
 })
 
 n3.addEventListener('click', function () {
-    if (operacao == null) {
+    if (operacao == '') {
         numero1 = numero1 + n3.textContent;
         calculo.innerText = numero1;
     } else {
@@ -90,7 +90,7 @@ n3.addEventListener('click', function () {
 })
 
 n4.addEventListener('click', function () {
-    if (operacao == null) {
+    if (operacao == '') {
         numero1 = numero1 + n4.textContent;
         calculo.innerText = numero1;
     } else {
@@ -99,20 +99,99 @@ n4.addEventListener('click', function () {
     }
 })
 
-//----------------------------------------
+n5.addEventListener('click', function () {
+    if (operacao == '') {
+        numero1 = numero1 + n5.textContent;
+        calculo.innerText = numero1;
+    } else {
+        numero2 = numero2 + n5.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+})
+
+n6.addEventListener('click', function () {
+    if (operacao == '') {
+        numero1 = numero1 + n6.textContent;
+        calculo.innerText = numero1;
+    } else {
+        numero2 = numero2 + n6.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+})
+
+n7.addEventListener('click', function () {
+    if (operacao == '') {
+        numero1 = numero1 + n7.textContent;
+        calculo.innerText = numero1;
+    } else {
+        numero2 = numero2 + n7.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+})
+
+n8.addEventListener('click', function () {
+    if (operacao == '') {
+        numero1 = numero1 + n8.textContent;
+        calculo.innerText = numero1;
+    } else {
+        numero2 = numero2 + n8.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+})
+
+n9.addEventListener('click', function () {
+    if (operacao == '') {
+        numero1 = numero1 + n9.textContent;
+        calculo.innerText = numero1;
+    } else {
+        numero2 = numero2 + n9.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+})
+
+//------------------------------------------------------
+
+soma.addEventListener('click', function (){
+    operacao = soma.textContent;
+    calculo.innerText = numero1 + " " + operacao + " " + numero2;
+})
+
+//------------------------------------------------------
+
+subtracao.addEventListener('click', function(){
+    operacao = subtracao.textContent;
+    calculo.innerText = numero1 + " " + operacao + " " + numero2;
+})
+
+//------------------------------------------------------
+
+multiplicacao.addEventListener('click', function(){
+    operacao = multiplicacao.textContent;
+    calculo.innerText = numero1 + " " + operacao + " " + numero2;
+})
+
+//------------------------------------------------------
 
 divisao.addEventListener('click', function () {
     operacao = divisao.textContent;
     calculo.innerText = numero1 + " " + operacao + " " + numero2;
 })
 
-//-------------------------------
+//------------------------------------------------------
 
 igual.addEventListener('click', function(){
+    // Divisao
     if (operacao == "/"){
         resultado.innerText = parseFloat(numero1) / parseFloat(numero2);
-    }else if (operacao == "*"){
-
+    // Multiplicacao
+    } else if (operacao == "*"){
+        resultado.innerText = parseFloat(numero1) * parseFloat(numero2);
+    // Soma
+    } else if (operacao == "+"){
+        resultado.innerText = parseFloat(numero1) + parseFloat(numero2);
+    // Subtracao
+    } else if (operacao == "-"){
+        resultado.innerText = parseFloat(numero1) - parseFloat(numero2);
     }
     else{
         //Aqui vai os outros else if...
@@ -120,6 +199,15 @@ igual.addEventListener('click', function(){
     }
 })
 
+//------------------------------------------------------
+// Botão de limpar
 
+limpar.addEventListener('click', function() {
+    numero1 = '';
+    numero2 = '';
+    operacao = '';
+    calculo.innerText = '';
+    resultado.innerText = '';
+})
 
 

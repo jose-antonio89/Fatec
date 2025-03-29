@@ -1,54 +1,24 @@
-// Seleciona o formulário
-const form = document.getElementById('formCalculadora');
+var num1 = document.getElementById('num1');
+var num2 = document.getElementById('num2');
+var resultado = document.getElementById('resultado');
 
-// Adiciona event listeners para os botões de operação
-document.getElementById('soma').addEventListener('click', function () {
-    calcular('soma');
+var btnSomar = document.getElementById('somar');
+var btnSub = document.getElementById('sub');
+var btnDiv = document.getElementById('div');
+var btnMult = document.getElementById('mult');
+
+btnSomar.addEventListener('click', function() {
+    resultado.textContent = "Resultado: " + (parseFloat(num1.value) + parseFloat(num2.value));
 });
 
-document.getElementById('subtracao').addEventListener('click', function () {
-    calcular('subtracao');
+btnSub.addEventListener('click', function() {
+    resultado.textContent = "Resultado: " + (parseFloat(num1.value) - parseFloat(num2.value));
 });
 
-document.getElementById('multiplicacao').addEventListener('click', function () {
-    calcular('multiplicacao');
+btnDiv.addEventListener('click', function() {
+    resultado.textContent = "Resultado: " + (parseFloat(num1.value) / parseFloat(num2.value));
 });
 
-document.getElementById('divisao').addEventListener('click', function () {
-    calcular('divisao');
+btnMult.addEventListener('click', function() {
+    resultado.textContent = "Resultado: " + (parseFloat(num1.value) * parseFloat(num2.value));
 });
-
-// Função para realizar os cálculos
-function calcular(operacao) {
-    const num1 = parseFloat(document.getElementById('numero1').value);
-    const num2 = parseFloat(document.getElementById('numero2').value);
-    let resultado;
-
-    switch (operacao) {
-        case 'soma':
-            resultado = num1 + num2;
-            break;
-        case 'subtracao':
-            resultado = num1 - num2;
-            break;
-        case 'multiplicacao':
-            resultado = num1 * num2;
-            break;
-        case 'divisao':
-            if (num2 !== 0) {
-                resultado = num1 / num2;
-            } else {
-                resultado = 'Erro: Divisão por zero';
-            }
-            break;
-        default:
-            resultado = 'Operação inválida';
-    }
-
-    // Exibe o resultado na lista
-    const li = document.createElement('li');
-    li.textContent = `Resultado: ${resultado}`;
-    document.getElementById('resultados').appendChild(li);
-
-    
-}
