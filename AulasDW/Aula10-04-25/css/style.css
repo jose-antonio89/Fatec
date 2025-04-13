@@ -1,3 +1,61 @@
-body {
-    background-color: #ccc;
+.body {
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+a {
+   text-decoration: none;
+}
+
+h1 {
+    color: #332525;
+    text-align: center;
+    font-size: 7em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.filme {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musica {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musica img {
+    width: 900px;
+    height: 500px;
+}
+.musica h2 {
+    color: #ad3939;
+    font-size: 2em;
+}
+
+.filme img {
+    width: 900px; 
+    height: 500px;
+} 
+.filme h2 {
+    color: #2518d3;
+    font-size: 2em;
+}  
