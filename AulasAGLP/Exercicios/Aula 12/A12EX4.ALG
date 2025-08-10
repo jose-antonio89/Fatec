@@ -18,9 +18,13 @@ Inicio
    Escreval("Digite seis numeros")
 
    Para i de 1 ate 6 faca
-      Escreval(i, "número")
+      Escreval("Digite o", i ," numero")
+      leia(numero[i])
    fimpara
-   
-   Escreval("Esse")
+   Escreval("")
+   Escreval("Numeros na ordem inversa")
+   Para i de 6 ate 1 passo -1 Faca
+      Escreval(numero[i])
+   Fimpara
 
 Fimalgoritmo
