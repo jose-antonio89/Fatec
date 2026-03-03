@@ -55,7 +55,3 @@ dotnet build
 Comandos Migration
 
 Add-Migration Nome
-
-03/03
-
-Update-Database

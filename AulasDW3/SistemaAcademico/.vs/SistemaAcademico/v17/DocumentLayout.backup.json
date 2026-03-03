@@ -3,56 +3,12 @@
   "WorkspaceRootPath": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|d:\\fatec\\aulasdw3\\sistemaacademico\\sistemaacademico\\sistemaacademico.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{66703D8E-9F46-4934-920C-AEA9DAFD8FB7}|SistemaAcademico\\SistemaAcademico.csproj|solutionrelative:sistemaacademico\\sistemaacademico.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "SistemaAcademico\\Views\\_ViewImports.cshtml",
@@ -74,163 +30,21 @@
               "RelativeToolTip": "SistemaAcademico\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T15:18:32.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "SistemaAcademico\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T15:18:28.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SistemaAcademico\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T15:18:23.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SistemaAcademico\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T15:16:12.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Disciplina.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Disciplina.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Models\\Disciplina.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Disciplina.cs",
-              "RelativeToolTip": "SistemaAcademico\\Models\\Disciplina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:42:24.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Curso.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Curso.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Models\\Curso.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Curso.cs",
-              "RelativeToolTip": "SistemaAcademico\\Models\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:42:25.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Aluno.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Models\\Aluno.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Aluno.cs",
-              "RelativeToolTip": "SistemaAcademico\\Models\\Aluno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:42:26.072Z",
+              "WhenOpened": "2026-03-03T15:18:43.86Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Matricula.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Matricula.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Models\\Matricula.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Matricula.cs",
-              "RelativeToolTip": "SistemaAcademico\\Models\\Matricula.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "Disciplina.cs",
+              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Disciplina.cs",
+              "RelativeDocumentMoniker": "SistemaAcademico\\Models\\Disciplina.cs",
+              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Disciplina.cs",
+              "RelativeToolTip": "SistemaAcademico\\Models\\Disciplina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:42:21.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Models\\Usuario.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Models\\Usuario.cs",
-              "RelativeToolTip": "SistemaAcademico\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:42:23.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Program.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Program.cs",
-              "RelativeToolTip": "SistemaAcademico\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T14:59:44.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SistemaAcademico\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SistemaAcademico\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T14:05:15.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaAcademico\\appsettings.json",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\appsettings.json",
-              "RelativeToolTip": "SistemaAcademico\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-24T14:53:01.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SistemaAcademico",
-              "DocumentMoniker": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\SistemaAcademico.csproj",
-              "RelativeDocumentMoniker": "SistemaAcademico\\SistemaAcademico.csproj",
-              "ToolTip": "D:\\Fatec\\AulasDW3\\SistemaAcademico\\SistemaAcademico\\SistemaAcademico.csproj*",
-              "RelativeToolTip": "SistemaAcademico\\SistemaAcademico.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-24T14:03:27.874Z",
+              "WhenOpened": "2026-03-03T15:33:08.058Z",
               "EditorCaption": ""
             }
           ]

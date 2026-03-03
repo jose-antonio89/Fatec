@@ -322,10 +322,10 @@ D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\staticwebas
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.SistemaAcademico.props
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.SistemaAcademico.props
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\staticwebassets.pack.json
-D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\SistemaA.50D71193.Up2Date
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\SistemaAcademico.dll
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\refint\SistemaAcademico.dll
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\SistemaAcademico.pdb
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\SistemaAcademico.genruntimeconfig.cache
 D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\ref\SistemaAcademico.dll
+D:\Fatec\AulasDW3\SistemaAcademico\SistemaAcademico\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
