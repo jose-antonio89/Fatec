@@ -1,0 +1,39 @@
+const BauTesouro = require('Exercicio2.js');
+
+const barbarruiva = new BauTesouro();
+
+console.log("--------------------");
+console.log('\x1b[35m%s\x1b[0m', 'Baú do Tesouro do Capitão Barbarruiva');
+barbarruiva.bauVazio() ? console.log("O baú está vazio.") : console.log("Há tesouros no baú.");
+
+console.log("\n--------------------");
+console.log('\x1b[32m%s\x1b[0m', 'Barbarruiva guardando tesouros:');
+
+barbarruiva.guardarTesouro("Moedas de Ouro");
+barbarruiva.exibirBau();
+barbarruiva.guardarTesouro("Pérola Rara");
+barbarruiva.exibirBau();
+barbarruiva.guardarTesouro("Colar de Diamantes");
+barbarruiva.exibirBau();
+
+console.log("\n--------------------");
+console.log('\x1b[34m%s\x1b[0m', 'Barbarruiva olha o último tesouro:');
+const ultimo = barbarruiva.olharUltimoTesouro();
+console.log(`Último tesouro: ${ultimo}`);
+
+console.log("\n--------------------");
+console.log('\x1b[33m%s\x1b[0m', 'Barbarruiva retirando tesouros:');
+
+let tesouroRetirado = barbarruiva.retirarTesouro();
+console.log(`Tesouro retirado: ${tesouroRetirado}`);
+barbarruiva.exibirBau();
+
+tesouroRetirado = barbarruiva.retirarTesouro();
+console.log(`Tesouro retirado: ${tesouroRetirado}`);
+barbarruiva.exibirBau();
+
+console.log("\n--------------------");
+console.log('\x1b[36m%s\x1b[0m', 'Estatísticas:');
+const stats = barbarruiva.estatisticas();
+console.log(`Total de tesouros no baú: ${stats.total}`);
+console.log(`Baú vazio: ${stats.vazio}`);

@@ -1,0 +1,16 @@
+<?php
+
+class Proprietario extends Pessoa
+{
+    private string $cpf;
+    public function __construct(string $nome, string $cpf)
+    {
+        parent::__construct($nome);
+        $this->cpf = $cpf;
+    }
+
+    public function getCpf(): string
+    {
+        return $this->cpf;
+    }
+}

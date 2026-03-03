@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exercicio 4</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <a href="../ListaP1.html">Voltar para lista</a> <br /><br />
+
+  <form id="formContagem">
+    <h3>Contagem Progressiva e Regressiva</h3>
+
+    <label for="menor">Digite o menor número:</label>
+    <input type="number" id="menor" required />
+    <br /><br />
+
+    <label for="maior">Digite o maior número:</label>
+    <input type="number" id="maior" required />
+    <br /><br />
+
+    <input type="submit" value="Contar" />
+    <input type="reset" id="resetBtn" />
+  </form>
+
+  <div id="saida"></div>
+
+  <script>
+    const form = document.getElementById('formContagem');
+    const saida = document.getElementById('saida');
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const menor = parseInt(document.getElementById('menor').value);
+      const maior = parseInt(document.getElementById('maior').value);
+
+      if (isNaN(menor) || isNaN(maior)) {
+        saida.innerHTML = "<p style='color:red;'>Por favor, informe números válidos.</p>";
+        return;
+      }
+
+      if (menor > maior) {
+        saida.innerHTML = "<p style='color:red;'>O menor número deve ser menor ou igual ao maior número.</p>";
+        return;
+      }
+
+      let progressiva = "";
+      for (let i = menor; i <= maior; i++) {
+        progressiva += i + (i < maior ? ", " : "");
+      }
+
+      let regressiva = "";
+      for (let i = maior; i >= menor; i--) {
+        regressiva += i + (i > menor ? ", " : "");
+      }
+
+      saida.innerHTML = `
+        <h3>Contagem progressiva:</h3>
+        <p>${progressiva}</p>
+        <h3>Contagem regressiva:</h3>
+        <p>${regressiva}</p>
+      `;
+    });
+
+    // Limpa a saída ao resetar o formulário
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      saida.innerHTML = "";
+    });
+  </script>
+</body>
+
+</html>

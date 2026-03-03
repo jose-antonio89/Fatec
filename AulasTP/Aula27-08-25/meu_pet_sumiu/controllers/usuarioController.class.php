@@ -1,5 +1,7 @@
 <?php
-require_once "Models/usuario.class.php";
+require_once "/Models/usuario.class.php";
+require_once "/Models/usuarioDAO.class.php";
+
 class usuarioController
 {
     public function login()
@@ -24,7 +26,7 @@ class usuarioController
                 $erro = true;
             } else {
                 // verificar se ja não existe um usuario com o email cadastrado
-                $usuario = new usuarios(email: $_POST["email"]);
+                $usuario = new usuarios(email:$_POST["email"]);
             }
             if (empty($_POST["senha"])) {
                 $msg[2] = "Preencha o campo senha";
@@ -35,8 +37,10 @@ class usuarioController
                 $erro = true;
             }
             if (!$erro) {
-                $usuario = new usuarios(0, $_POST["nome"], $_POST["email"], $_POST["senha"], $_POST["celular"]);
+                $usuario = new usuarios(0, $_POST["nome"], $_POST["email"], password_hash ($_POST["senha"], PASSWORD_DEFAULT), $_POST["celular"]);
                 // cadastrar banco de dados
+                $usuarioDAO -> new usuarioDAO();
+                $retorno = $usuarioDAO ->inserir($usuario);
             }
         }
         require_once "Views/form_usuario.php";

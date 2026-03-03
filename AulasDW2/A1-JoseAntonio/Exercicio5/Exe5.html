@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exercicio 5</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <a href="../ListaP1.html">Voltar para lista</a> <br /><br />
+
+  <form id="formTabuada">
+    <h3>Calcular a tabuada</h3>
+
+    <label for="numero">Digite um número:</label>
+    <input type="number" id="numero" required />
+    <br /><br />
+
+    <input type="submit" value="Calcular" />
+    <input type="reset" id="resetBtn" />
+  </form>
+
+  <div id="saida"></div>
+
+  <script>
+    const form = document.getElementById('formTabuada');
+    const saida = document.getElementById('saida');
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const num = parseInt(document.getElementById('numero').value);
+
+      if (isNaN(num)) {
+        saida.innerHTML = "<p style='color:red;'>Por favor, digite um número válido.</p>";
+        return;
+      }
+
+      let resultado = `<h3>Tabuada do ${num}</h3><ul>`;
+
+      for (let i = 0; i <= 10; i++) {
+        resultado += `<li>${num} x ${i} = ${num * i}</li>`;
+      }
+
+      resultado += "</ul>";
+
+      saida.innerHTML = resultado;
+    });
+
+    // Limpa saída no reset
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      saida.innerHTML = "";
+    });
+  </script>
+</body>
+
+</html>

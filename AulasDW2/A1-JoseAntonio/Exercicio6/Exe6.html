@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exercicio 6</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <a href="../ListaP1.html">Voltar para lista</a> <br /><br />
+
+    <form id="formAno">
+        <h3>Verificar se o ano é bissexto</h3>
+
+        <label for="ano">Digite um ano:</label>
+        <input type="number" id="ano" required />
+        <br /><br />
+
+        <input type="submit" value="Verificar" />
+        <input type="reset" id="resetBtn" />
+    </form>
+
+    <div id="saida"></div>
+
+    <script>
+        const form = document.getElementById('formAno');
+        const saida = document.getElementById('saida');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const ano = parseInt(document.getElementById('ano').value);
+
+            if (isNaN(ano) || ano <= 0) {
+                saida.innerHTML = "<p style='color:red;'>Por favor, insira um ano válido.</p>";
+                return;
+            }
+
+            const divisivelPor4 = ano % 4 === 0;
+            const divisivelPor100 = ano % 100 === 0;
+            const divisivelPor400 = ano % 400 === 0;
+
+            let resultado = `<h3>Resultado para o ano ${ano}:</h3>`;
+
+            if (!divisivelPor4) {
+                resultado += `<p>Não é divisível por 4. Portanto, <strong>não é</strong> um ano bissexto.</p>`;
+            } else if (divisivelPor100 && !divisivelPor400) {
+                resultado += `<p>É divisível por 100, mas não por 400. Portanto, <strong>não é</strong> um ano bissexto.</p>`;
+            } else {
+                resultado += `<p>É divisível por 4${divisivelPor100 ? ", por 100" : ""}${divisivelPor400 ? " e por 400" : ""}. Portanto, <strong>é</strong> um ano bissexto.</p>`;
+            }
+
+            saida.innerHTML = resultado;
+        });
+
+        document.getElementById('resetBtn').addEventListener('click', () => {
+            saida.innerHTML = "";
+        });
+    </script>
+</body>
+
+</html>

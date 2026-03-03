@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exercicio 10</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <a href="../ListaP1.html">Voltar para lista</a> <br /><br />
+
+    <h3>Matriz 3x3 com números de 1 a 9</h3>
+
+    <form id="formMatriz">
+        <input type="submit" value="Gerar Matriz" />
+        <input type="reset" id="resetBtn" />
+    </form>
+
+    <div id="saida"></div>
+
+    <script>
+        const form = document.getElementById('formMatriz');
+        const saida = document.getElementById('saida');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const vetor = [];
+            for (let i = 1; i <= 9; i++) {
+                vetor.push(i);
+            }
+
+            let matrizHTML = "<table border='1' cellpadding='10'>";
+            for (let linha = 0; linha < 3; linha++) {
+                matrizHTML += "<tr>";
+                for (let coluna = 0; coluna < 3; coluna++) {
+                    let index = linha * 3 + coluna;
+                    matrizHTML += `<td>${vetor[index]}</td>`;
+                }
+                matrizHTML += "</tr>";
+            }
+            matrizHTML += "</table>";
+
+            saida.innerHTML = matrizHTML;
+        });
+
+        document.getElementById('resetBtn').addEventListener('click', () => {
+            saida.innerHTML = "";
+        });
+    </script>
+</body>
+
+</html>

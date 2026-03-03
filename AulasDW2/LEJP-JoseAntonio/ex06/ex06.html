@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex6JS</title>
+     <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <a href="../index.html">Voltar</a> <br><br>
+
+    <form id="form">
+        <h3>vetor de medias</h3>
+        <label for="numeros">Insira 5 ou mais números (separados por espaço):</label>
+        <input type="text" id="numeros">
+
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+    </form>
+    <p id="saida"></p>
+</body>
+
+<script>
+    const form = document.getElementById('form');
+    const saida = document.getElementById('saida');
+    // Armazena o campo de input para uso no evento
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        let mensagem = '';
+        const entradaString = document.getElementById('numeros').value;
+
+        const n = entradaString
+            .split(" ")
+            .filter(num => num.trim() !== '')
+            .map(num => parseFloat(num.trim()));
+
+        const soma = n.reduce((acc, valor) => acc + valor, 0);
+
+        let media = soma / n.length;
+
+        mensagem = `A média dos ${n.length} números é: <strong> ${media.toFixed(2)} </strong>`;
+
+        saida.innerHTML = mensagem;
+    });
+
+</script>
+
+</html>

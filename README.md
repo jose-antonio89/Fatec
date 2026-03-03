@@ -5,6 +5,8 @@
 - **AGLP**: Algoritmos e Lógica de Programação  
 - **MBD**: Modelagem de Banco de dados  
 - **TP**: Técnicas de Programação 
-
+- **ED**: Estrutura de Dados
+- **BDR**: Banco de Dados Relacional 
+- **BDNR**: Banco de dados Não Relacional
 
 

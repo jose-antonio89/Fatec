@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex7JS</title>
+     <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <a href="../index.html">Voltar</a> <br><br>
+
+    <form id="form">
+        <h3>Media por matriz (separe com espacos)</h3>
+        <label for="nome1">Nome A:</label>
+        <input type="text" id="nome1"> <br>
+        <label for="nota1">Notas A</label>
+        <input type="text" id="nota1"> <br>
+
+        <br>
+        <label for="nome2">Nome B:</label>
+        <input type="text" id="nome2"> <br>
+        <label for="nota2">Notas B</label>
+        <input type="text" id="nota2"> <br>
+
+        <br>
+        <label for="nome3">Nome C:</label>
+        <input type="text" id="nome3"> <br>
+        <label for="nota3">Notas C</label>
+        <input type="text" id="nota3"> <br>
+
+        <br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+    </form>
+    <p id="saida"></p>
+</body>
+
+<script>
+    const form = document.getElementById('form');
+    const saida = document.getElementById('saida');
+
+    function parseNotas(notasString) {
+        return notasString
+            .split(/\s+/) // separa por espaços
+            .filter(n => n.trim() !== '') // remove vazios
+            .map(n => parseFloat(n.replace(',', '.'))); // converte para número
+    }
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Lendo nomes e notas
+        const alunos = [
+            { nome: document.getElementById('nome1').value, notas: parseNotas(document.getElementById('nota1').value) },
+            { nome: document.getElementById('nome2').value, notas: parseNotas(document.getElementById('nota2').value) },
+            { nome: document.getElementById('nome3').value, notas: parseNotas(document.getElementById('nota3').value) }
+        ];
+
+        // Matriz com notas
+        const matriz = alunos.map(a => a.notas);
+
+        // Calcula média e gera resultado
+        let mensagem = "<strong>Médias:</strong><br>";
+        alunos.forEach((aluno, i) => {
+            const soma = matriz[i].reduce((acc, n) => acc + n, 0);
+            const media = soma / matriz[i].length;
+            mensagem += `${aluno.nome}: ${media.toFixed(2)}<br>`;
+        });
+
+        saida.innerHTML = mensagem;
+    });
+
+</script>
+
+</html>
