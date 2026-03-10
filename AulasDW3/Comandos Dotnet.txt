@@ -55,3 +55,38 @@ dotnet build
 Comandos Migration
 
 Add-Migration Nome
+
+Atualizar/Criar Banco
+
+Update-Database
+
+Verificar ferramentas intaladas globalmente (se nao aparecer usara do seu projeto)
+
+dotnet tool list -g
+
+Criar Manifesto (tem que entrar na pasta do projeto PASTA PÓS SLN E .VS - EX: ./desenvolvimento_web_III/SistemaAcademico/SistemaAcademico) 
+
+dotnet new tool-manifest -o ./caminho/da/pasta
+-- se ja tiver encaminhado (cd) dar ./
+
+Instalar ferramenta local
+
+dotnet tool install Microsoft.VisualStudio.Web.CodeGeneration.Design --version 9.0.0
+dotnet tool install dotnet-aspnet-codegenerator --version 9.0.0
+
+Gerar Controllers e views console
+
+Na pasta do projeto:
+dotnet aspnet-codegenerator controller -name [NOMECONTROLLER] -m [NOME-DA-MODEL] -dc [SEU_DBCONTEXT] --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+	- dbcontext esta em DATA
+
+limpa cache
+
+dotnet nuget locals all --clear 
+
+Reinstalar 
+
+dotnet tool install dotnet-aspnet-codegenerator --version 9.0.0
+
+Tentar criar
+dotnet aspnet-codegenerator controller -name [NOMECONTROLLER] -m [NOME-DA-MODEL] -dc [SEU_DBCONTEXT] --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
